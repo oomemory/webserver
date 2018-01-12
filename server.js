@@ -4,7 +4,7 @@ var path    = require('path');
 var fs      = require('fs');
 
 // the server will listen at the following port
-var port  = process.env.port || 10080;
+var port  = process.env.port || 8080;
 
 // create the server
 // version 1: WITHOUT USING express
