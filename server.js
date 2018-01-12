@@ -32,6 +32,13 @@ server.get('/', function(req, res){
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 
+// new route
+server.get('/saysomething', function(req, res){
+  res.sendFile(path.join(__dirnname, '/something.html'));
+});
+
+
+
 // fire the server engine
 server.listen(port);
 
